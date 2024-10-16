@@ -1,0 +1,180 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
+ 
+body { 
+  font-family:'Times New Roman', Times, serif !important;
+  background-color: #f2f2f2; 
+  color: #333; 
+  padding: 20px; 
+} 
+ 
+.header { 
+  text-align: center; 
+} 
+ 
+.header h1 { 
+  font-size: 36px; 
+  margin-bottom: 20px; 
+} 
+ 
+.about-me { 
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 20px; 
+} 
+
+.carousel-inner{
+  width: 100% !important;;
+  max-height: 800px !important;
+}
+ 
+.profile-pic img { 
+  border-radius: 10%; 
+  width: 120px; 
+  height: 200px; 
+} 
+ 
+.about-text { 
+  margin-left: 20px; 
+} 
+ 
+.about-text h2 { 
+  font-size: 24px; 
+  margin-bottom: 10px; 
+} 
+ 
+.skills-tools { 
+  margin-bottom: 20px; 
+} 
+ 
+.skills-tools h2 { 
+  font-size: 24px; 
+  margin-bottom: 10px; 
+} 
+ 
+.skills-tools ul { 
+  list-style-type: none; 
+  display: flex; 
+  flex-wrap: wrap; 
+} 
+ 
+.skills-tools ul li { 
+  margin-right: 15px; 
+} 
+ 
+.tools-icons img { 
+  width: 50px; 
+  margin-right: 10px; 
+} 
+ 
+ 
+.portfolio-items { 
+  margin-bottom: 20px; 
+} 
+ 
+.portfolio-items h2 { 
+  font-size: 24px; 
+  margin-bottom: 10px; 
+} 
+ 
+.portfolio-grid { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+} 
+ 
+.portfolio-grid img { 
+  width: 30%; 
+  border-radius: 8px; 
+} 
+.footer {
+  background-color: pink;
+  margin-top: 50px;
+  color: black;
+}
+
+.footer-container {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 20px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  width: 50px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #e91e63;
+  padding-left: 10px;
+}
+
+.footer-col .social-links {
+  display: flex;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: black;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  background-color: #e91e63;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+      width: 50%;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+      width: 100%;
+  }
+}
